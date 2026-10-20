@@ -1,0 +1,6 @@
+.ty{display:flex;flex-direction:column;gap:10px;height:100%}
+.ty-stats{display:flex;gap:16px;align-items:center;font-size:.9rem;font-weight:600}
+.ty-stats button{margin-left:auto;padding:6px 12px;border:0;border-radius:7px;background:var(--accent,#3498db);color:#fff;cursor:pointer;font-weight:400}
+.ty-sample{flex:1;overflow:auto;padding:12px;border:1px solid var(--muted-bg,#444);border-radius:8px;background:var(--surface,#1e1e1e);font-family:monospace;font-size:1rem;line-height:1.7}
+.ty-sample .ok{color:#2ecc71}.ty-sample .bad{color:#e74c3c;background:rgba(231,76,60,.2);border-radius:2px}.ty-sample .cur{border-bottom:2px solid var(--accent,#3498db)}
+.ty-input{height:90px;resize:none;padding:10px;border:1px solid var(--muted-bg,#444);border-radius:8px;background:var(--surface,#1e1e1e);color:var(--text,#eee);font-family:monospace;font-size:1rem}
